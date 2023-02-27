@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 23px;
+    
+}
+.hero{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px soild #cccccc;
+}
+.nav ul{
+    display: flex;
+}
+
+nav ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 30px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#202639;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(53, 56, 243);
+}
+.Luna{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.Luna h1{
+    font: size 80px;
+    font-weight: bold;
+    color:#222831;
+    margin-bottom: 30px;
+}
+
+span{
+    color:blue;
+    line-height: 22px;
+}
+.Luna a{
+    background-color:#083358;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff4fd;
+    display: inline;
+    margin: 60px 0;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.Luna p{
+    font-weight: 30px;
+    margin-bottom: 60px;
+}
+
+.Myavatar{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.Myavatar img{
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.Luna:hover.background{
+    bottom: 40px;
+
+}
+.Luna:hover.me{
+    left: 45px;
+
+}
+
+
+  
+/*Section1: My projects*/
+.Myprojects{
+    background-color:#eff4fd;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 40px;
+    color: #202639;
+    
+    font-weight: 600;
+}
+p{
+    color: #202639;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.project-col{
+    flex-basis: 31%;
+    background:#adc3ea;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+}
+.project-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #eff4fd;
+}
+.project-col p{
+    color:#202639;
+}
+.project-col:hover{
+    box-shadow: 0 0 20px 0px  rgba(0,0,0,0.2);
+}
+/*section2:contactme*/
+#contactme{
+    background-color:#eff4fd;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 40px;
+    color: #202639;
+    margin-top: 20px;
+    
+    font-weight: 600;
+}
+p{
+    color: #202639;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.contact-form {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 60px;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  ;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  
+  resize: none;
+  height: 80px;
+  width: 800px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #452CE3;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #452CE3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-weight: bold;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/*footer*/
+.footer p {
+    padding: 3rem 0 3rem 0;
+    font-size: 14px;
+    color: #e0e1dd;
+    background-color: #1b263b;
+    text-align: center;}
